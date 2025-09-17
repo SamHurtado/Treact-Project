@@ -23,7 +23,8 @@
 
 .nav__row {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__logo--img {
@@ -50,7 +51,9 @@
     display: flex;
     align-items: center;
     padding-bottom: 2px;
+    margin-left: auto;
 }
+
 
 .nav__link {
     font-size: 14px;
@@ -63,8 +66,7 @@
     margin: 0 24px;
 }
 
-.nav__link,
- nav__link--primary {
+.nav__btn {
     margin: 0;
     padding: 10px 32px;
     margin-top: 2px;

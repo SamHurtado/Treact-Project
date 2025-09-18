@@ -60,12 +60,22 @@
     font-size: 14px;
     font-weight: 600;
     padding-top: 4px;
+    
     letter-spacing: 0.35px;
     border-bottom: 2px solid transparent;
     position: relative;
-    transition: all 300ms;
+    display: inline block;
+    transition: all 300ms ease;
     margin: 0 24px;
 }
+
+.nav__link:hover {
+    text-decoration: underline;
+    text-decoration-color: #6415ff;
+    text-decoration-thickness: 2px;
+    bottom: -1px;
+}
+
 
 .nav__btn {
     display: inline-block;
@@ -90,10 +100,11 @@ a {
 
 /* Landing */
 
-h1 {
+.landing__title {
     font-size: 36px;
     color: #1a202c;
     line-height: 1.25;
+    padding: 96px 0 0;
 }
 
 .landing__container {
@@ -111,6 +122,8 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     unicode-bidi: isolate;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 span {
@@ -118,13 +131,13 @@ span {
 }
 
 .header__email {
-    position: relative;
-    width: 100%;
-    border-radius: 500px;
-    border: 2px solid rgb(229, 231, 235);
-    padding: 20px 192px 20px 32px;
-    top: 0;
-    bottom: 0;
+   width: 100%;
+   max-width: 448px;
+   height: 68px;
+   position: relative;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
 }
 
 .header__email--input {
@@ -171,15 +184,27 @@ span {
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
+    text-align: left;
 }
 
 .trusted__customers {
     display: flex;
-    margin-top: 16px;
-    padding right: 128px;
+    width: 100%;
+    margin: 16px 0 0;
+    padding: 0 64px 0 0;
     opacity: 0.5;
 }
 
 .header__description {
     width: 40%;
+}
+
+.header__img--wrapper {
+    width: calc(100% - 40%);
+   margin-left: auto;
+   margin-top: -500px;
+}
+
+.header__img {
+width: 100%;
 }

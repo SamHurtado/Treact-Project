@@ -91,9 +91,9 @@ a {
 /* Landing */
 
 h1 {
-        font-size: 36px;
-        color: #1a202c;
-        line-height: 1.25;
+    font-size: 36px;
+    color: #1a202c;
+    line-height: 1.25;
 }
 
 .landing__container {
@@ -175,12 +175,11 @@ span {
 
 .trusted__customers {
     display: flex;
-   margin-top: 16px;
-   padding right: 128px;
-   opacity: 0.5;
+    margin-top: 16px;
+    padding right: 128px;
+    opacity: 0.5;
 }
 
 .header__description {
-    display: flex;
-    flex-direction: column;
+    width: 40%;
 }

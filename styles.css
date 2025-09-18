@@ -96,6 +96,12 @@ h1 {
         line-height: 1.25;
 }
 
+.landing__container {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
 .header__description--para {
     margin: 32px 0;
     line-height: 1.5;
@@ -111,8 +117,18 @@ span {
     color: #6415ff;
 }
 
+.header__email {
+    position: relative;
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    top: 0;
+    bottom: 0;
+}
+
 .header__email--input {
-    /* width: 100%;
+    width: 100%;
     border-radius: 500px;
     border: 2px solid rgb(229, 231, 235);
     padding: 20px 192px 20px 32px;
@@ -123,7 +139,7 @@ span {
     top: 0;
     bottom: 0;
     z-index: 1;
-    transition: border-color 300ms;  */
+    transition: border-color 300ms; 
 }
 
 .header__email--btn {
@@ -142,6 +158,7 @@ span {
     z-index: 2;
     transition: transform 200ms ease, opacity 200ms ease;
     cursor: pointer;
+    position: absolute;
 }
 
 .header__email--btn:hover {
@@ -157,11 +174,13 @@ span {
 }
 
 .trusted__customers {
+    display: flex;
    margin-top: 16px;
    padding right: 128px;
    opacity: 0.5;
 }
 
 .header__description {
-    width: 40%;
+    display: flex;
+    flex-direction: column;
 }

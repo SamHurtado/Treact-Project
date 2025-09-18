@@ -37,6 +37,7 @@
     align-items: center;
     margin: 8px 0;
     padding-bottom: 4px;
+    padding-left: 40px;
 }
 
 .nav__logo--title {
@@ -50,7 +51,7 @@
 .nav__links {
     display: flex;
     align-items: center;
-    padding-bottom: 2px;
+    gap: 32px;
     margin-left: auto;
 }
 
@@ -67,19 +68,100 @@
 }
 
 .nav__btn {
-    margin: 0;
+    display: inline-block;
     padding: 10px 32px;
-    margin-top: 2px;
     border-radius: 9999px;
     color: #fff;
     background-color: #6415ff;
+    font-weight: 700;
     line-height: 1.5;
-    border: none;
-    width: auto;
-    transition: all 300ms ease;
+    transition: transform 200ms ease, opacity 200ms ease;
+}
+
+.nav__btn:hover {
+    transform: translateY(-1px); 
+    opacity: 0.80;
 }
 
 a {
     display: inline;
     text-decoration: none;
+}
+
+/* Landing */
+
+h1 {
+        font-size: 36px;
+        color: #1a202c;
+        line-height: 1.25;
+}
+
+.header__description--para {
+    margin: 32px 0;
+    line-height: 1.5;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+span {
+    color: #6415ff;
+}
+
+.header__email--input {
+    /* width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms;  */
+}
+
+.header__email--btn {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 32px;
+    border-radius: 500px;
+    width: 160px;
+    height: calc(100% - 16px);
+    border: none;
+    color: #fff;
+    background-color: #6415ff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 2;
+    transition: transform 200ms ease, opacity 200ms ease;
+    cursor: pointer;
+}
+
+.header__email--btn:hover {
+    transform: translateY(-1px); 
+    opacity: 0.80;
+}
+
+.header__customers--title {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.trusted__customers {
+   margin-top: 16px;
+   padding right: 128px;
+   opacity: 0.5;
+}
+
+.header__description {
+    width: 40%;
 }

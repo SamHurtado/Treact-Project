@@ -107,6 +107,10 @@ a {
 
 /* Landing */
 
+header {
+    padding: 96px 0;
+}
+
 .landing__title {
     font-size: 36px;
     color: #1a202c;
@@ -245,7 +249,7 @@ width: 100%;
 }
 
 .features__container {
-    padding: 80px 0;
+    padding: 96px 0;
 }
 
 .features__row {
@@ -257,17 +261,19 @@ width: 100%;
 .features {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .feature {
     display: flex;
-    width: calc(100%/3);
+    width: calc(100% /3)
 }
 
 .feature__row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 32px 24px;
+    /* max-width: calc(33.33) */
 }
 
 .feature__img {
@@ -279,6 +285,15 @@ width: 100%;
     padding: 20px;
     border: 1px solid #e5e7eb;
     border-radius: 500px;
+    max-height: 40%;
+}
+
+.feature__title {
+    padding-top: 20px;
+}
+
+.feature__text {
+    padding-left: 15px;
 }
 
 .feature__para {
@@ -288,4 +303,5 @@ width: 100%;
     color: rgb(124, 139, 161);
     line-height: 2;
     font-weight: 500;
+    padding-top: 10px;
 }

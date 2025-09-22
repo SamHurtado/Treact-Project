@@ -281,12 +281,26 @@ width: 100%;
     width: 24px;
     height: 24px;
 }
+
 .feature__img--wrapper {
     display: flex;
     padding: 20px;
     border: 1px solid #e5e7eb;
     border-radius: 500px;
-    max-height: 40%;
+    max-height: 25%;
+    padding-top: 50px;
+}
+
+#img--wrapper__edit1 {
+    max-height: 20%;
+}
+
+#img--wrapper__edit2 {
+    max-height: 20%;
+}
+
+#img--wrapper__edit3 {
+    max-height: 20%;
 }
 
 .feature__title {
@@ -354,7 +368,6 @@ width: 100%;
 .quality__img--wrapper {
 text-align: center;
 padding-top: 100px;
-
 }
 
 .quality__img {
@@ -366,6 +379,8 @@ border: 1px solid rgb(235, 228, 228)
 .nav__btn {
     max-width: 40%;
     font-size: medium;
+    border: none;
+    cursor: pointer;
     border: none;
 }
 
@@ -444,7 +459,7 @@ border: 1px solid rgb(235, 228, 228)
 /* VALUES */
 
 .container__values {
-    padding-top: 150px;
+    padding: 96px 0;
 }
 
 .row__values {
@@ -518,6 +533,10 @@ h2 {
 
 /* PRICING */
 
+.pricing__container {
+    padding: 96px 0;
+}
+
 .pricing__row {
     width: 100%;
     max-width: 1200px;
@@ -560,6 +579,7 @@ h2 {
     font-size: 16px;
     letter-spacing: 0.1em;
     color: #a0aec0;
+    font-weight: bold;
 }
 
 .plan__target {
@@ -579,11 +599,132 @@ h2 {
 
 .plans {
     display: flex;
-    flex-wrap: wrap;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .plan {
-    width: calc(100% / 3);
     display: flex;
     flex-direction: column;
+    text-align: center;
+    position: relative;
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    max-width: 24rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255 255 255);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    padding-top: 0.5rem;
+    color: rgb(26 32 44);
+    border-top: 2px solid rgb(229, 231, 235);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.plan__middle {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    padding: 2rem;
+    border-bottom: 2px solid rgb(229, 231, 235);
+    border-top: 2px solid rgb(229, 231, 235);
+}
+
+.plan__top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    line-height: 1.625;
+    border-radius: 0.5rem;
+    border-width: 2px solid rgb(229, 231, 235);
+}
+
+
+.plan__bottom {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.plan__purple
+.plan__middle {
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(102, 126, 234);
+}
+
+.plan__purple {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__stripe {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.stripe__red {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plan__button {
+    border-radius: 0.25rem;
+    background-color: rgb(100 21 255);
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    color: rgb(247 250 252);
+    transition: all 300ms ease;
+    width: 100%;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+}
+
+.plan__button:hover {
+    transform: translate(1px, -1px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#button1 {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+#button2 {
+    color: #6415ff;
+    background-color: #f7fafc;
+}
+
+#button3 {
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }

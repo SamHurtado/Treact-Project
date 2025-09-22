@@ -828,9 +828,12 @@ h2 {
 
 .testimonial__btns {
     display: flex;
+    justify-content: center;
     align-items: center;
-    border: none;
+    padding: 16px;
+    margin: 0;
     border-radius: 50%;
+    border: none;
 }
 
 .testimonial__btns:hover {

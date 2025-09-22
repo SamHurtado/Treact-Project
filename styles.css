@@ -288,7 +288,7 @@ width: 100%;
     border: 1px solid #e5e7eb;
     border-radius: 500px;
     max-height: 25%;
-    padding-top: 50px;
+    margin-top: 35px;
 }
 
 #img--wrapper__edit1 {
@@ -308,7 +308,7 @@ width: 100%;
 }
 
 .feature__text {
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .feature__para {
@@ -728,3 +728,6 @@ h2 {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
+
+/* TESTIMONIALS */
+

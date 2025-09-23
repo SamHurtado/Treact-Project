@@ -859,7 +859,6 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 16px;
-    /* background: #edf2f7; */
     border-radius: 50%;
     margin: 0 10px;
     transition: all 300ms ease;
@@ -872,7 +871,6 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 16px;
-    /* background: #edf2f7; */
     border-radius: 50%;
     margin: 0 10px;
     transition: all 300ms ease;
@@ -937,6 +935,12 @@ h2 {
   white-space: nowrap;
 }
 
+.start__button1:hover {
+     transform: translateY(-1px); 
+    opacity: 0.80;
+    background-color: rgba(229, 62, 62);
+}
+
 .start__button2 {
   display: inline-flex;
   justify-content: center;
@@ -956,6 +960,14 @@ h2 {
               rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   transition: all 300ms ease;
   white-space: nowrap;
+}
+
+.start__button2:hover {
+    transform: translateY(-1px); 
+    opacity: 0.80;
+    background-color: rgba(247, 250, 252);
+    color: rgba(100, 21, 255);
+    transition: all 300ms ease;
 }
 
 #started {
@@ -1043,6 +1055,8 @@ footer {
 .footer__copyright {
     color: #cbd5e0;
     font-weight: 500;
+    margin-left: 130px;
+    margin-top: 10px;
 }
 
 .footer__social--link {
@@ -1075,7 +1089,19 @@ footer {
     align-items: center;
 }
 
-@media (max-width: 1024px) 
-.btn__menu {
-    display: block;
+/* 1200px, 992px, 768px, 576px */
+
+@media (max-width: 992px) 
+ /* {font-size: 20px */
     }
+
+@media (max-width: 768px) 
+/* {font-size: 18px */
+
+}
+
+@media (max-width: 576px)
+/* {font-size: 16px */
+
+}
+

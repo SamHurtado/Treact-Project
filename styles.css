@@ -888,6 +888,9 @@ h2 {
 
 /* Get Started */
 
+.start__row {
+}
+
 .start__title {
     color: #f7fafc;
     font-size: 30px;
@@ -900,7 +903,6 @@ h2 {
 
 .start__buttons {
     display: flex;
-    
 }
 
 .start__button1 {
@@ -946,10 +948,6 @@ h2 {
     letter-spacing: 0.05em;
     cursor: pointer;
 }
-
-    padding: 0.75rem 2rem;
-    cursor: pointer;
-    border: none;
 
 #started {
     display: flex;

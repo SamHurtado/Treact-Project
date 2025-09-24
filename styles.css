@@ -904,7 +904,18 @@ h2 {
 
 /* Get Started */
 
+.start__container {
+    
+}
+
 .start__row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .start__title {
@@ -913,13 +924,12 @@ h2 {
     font-weight: 700;
     line-height: 1.5;
     z-index: 2;
-    width: 250%;
-    margin-left: 115px;
+    /* width: 250%;
+    margin-left: 115px; */
 }
 
 .start__buttons {
     display: flex;
-    margin-right: 100px
 }
 
 .start__button1 {
@@ -1246,18 +1256,156 @@ header {
     font-size: 16px;
 }
 
-.start__row {
+.start__container {
 
+}
+
+.start__row {
+    flex-direction: column;
+}
+
+.start__title {
+    max-width: 512px;
+    text-align: center;
+    margin-bottom: 24px;
 }
 
 }
 
 
 @media (max-width: 768px)  {
-    {
-        
+   .nav__links {
+    display: none;
     }
+
+    .landing__row {
+    
+    }
+
+
+
+.features__container {
+    padding: 96px 32px;
 }
+
+.row__narrow {
+
+}
+
+.features {
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.feature__title {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 90px;
+    width: 150%;
+    max-height: 100px;
+}
+
+
+.feature__text {
+    
+}
+
+.feature__para {
+    width: 200%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.feature__title {
+    margin-top: 70px;
+    margin-bottom: 0;
+    max-width: 500px;
+    width: 500px;
+    height: 40px
+}
+
+.feature__row {
+    height: 300px;
+}
+
+.feature__img--wrapper {
+    
+
+}
+
+.img--wrapper__edit1 {
+    
+}
+
+.img--wrapper__edit2 {
+}
+
+.img--wrapper__edit3 {
+
+}
+
+.row__quality {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.quality__img {
+    margin: 65px;
+}
+
+.quality__title {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.quality__description {
+    width: 75%;
+    text-align: center;
+    align-items: center;
+}
+
+.quality__para {
+    font-size: 14px;
+}
+
+#btn3 {
+    margin-top: 15px;
+}
+
+.row__steps {
+    flex-direction: column;
+}
+
+.step__img {
+    width: 100%;
+}
+
+.steps__list {
+    text-align: center;
+    align-items: center;
+}
+
+.step__description {
+    width: 85%;
+    text-align: center;
+    align-items: center;
+}
+
+.step__para {
+}
+
+.step__title {
+}
+
+
+
+}
+
 
 
 

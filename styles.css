@@ -1291,7 +1291,6 @@ header {
 .feature__title {
     padding-bottom: 0;
     padding-top: 0;
-    margin-top: 90px;
     width: 150%;
     max-height: 100px;
 }
@@ -1307,13 +1306,6 @@ header {
     padding-top: 0;
 }
 
-.feature__title {
-    margin-top: 70px;
-    margin-bottom: 0;
-    max-width: 500px;
-    width: 500px;
-    height: 40px
-}
 
 .feature__row {
     height: 300px;

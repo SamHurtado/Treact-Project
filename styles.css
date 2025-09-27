@@ -20,6 +20,14 @@
     margin: 0 auto;
 }
 
+.landing__title {
+
+}
+
+.landing__row {
+    align-items: flex-end;
+}
+
 .nav__row {
     display: flex;
     justify-content: space-between;
@@ -117,7 +125,6 @@ a {
     font-size: 36px;
     color: #1a202c;
     line-height: 1.25;
-    padding: 96px 0 0;
 }
 
 .landing__container {
@@ -201,7 +208,6 @@ span {
 }
 
 .trusted__customers {
-    display: flex;
     width: 100%;
     margin: 16px 0 0;
     padding: 0 64px 0 0;
@@ -213,13 +219,14 @@ span {
 }
 
 .header__img--wrapper {
-    width: calc(100% - 40%);
+   width: calc(100% - 40%);
    margin-left: auto;
    margin-top: -500px;
 }
 
 .header__img {
-width: 100%;
+    width: 100%;
+    padding-left: 150px;
 }
 
 /* Features */
@@ -257,7 +264,7 @@ width: 100%;
     padding: 96px 0;
 }
 
-.features__row {
+.row__narrow {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -1269,23 +1276,39 @@ header {
     }
 
     .landing__row {
-    
     }
 
+    .header__description {
+       
+    }
 
 
 .features__container {
     padding: 96px 32px;
 }
 
-.row__narrow {
-
+.header__img {
+    padding: 0;
+    margin: 0;
 }
 
-.features {
+.row__narrow {
+    max-width: 768px;
+}
+
+.feature {
+    width: auto;
+    padding: 0;
+    align-items: center;
+    height: 200px;
+}
+
+.features { 
+    max-width: 768px;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 
 .feature__title {
@@ -1293,6 +1316,14 @@ header {
     padding-top: 0;
     width: 150%;
     max-height: 100px;
+}
+
+.section__title {
+    font-size: 44px;
+}
+
+.section__para {
+    padding-bottom: 35px;
 }
 
 
@@ -1309,10 +1340,11 @@ header {
 
 .feature__row {
     height: 300px;
+    align-items: center;
 }
 
 .feature__img--wrapper {
-    
+    margin-bottom: 75px;
 
 }
 
@@ -1355,12 +1387,20 @@ header {
     font-size: 14px;
 }
 
+.quality__img--wrapper {
+    padding: 0;
+}
+
 #btn3 {
     margin-top: 15px;
 }
 
 .row__steps {
     flex-direction: column;
+}
+
+.figure__steps {
+    padding-top: 0;
 }
 
 .step__img {

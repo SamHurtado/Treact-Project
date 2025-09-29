@@ -751,7 +751,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -1039,6 +1039,7 @@ footer {
     font-weight: 700;
     color: #f7fafc;
     line-height: 1.5;
+    margin-bottom: 24px;
 }
 
 .footer__column {
@@ -1580,6 +1581,7 @@ h3 {
 
     header {
         padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .landing__title {
@@ -1609,16 +1611,160 @@ h3 {
     .header__email {
         flex-direction: column;
         height: auto;
+        display: flex;
+    }
+
+    .header__img {
+        width: 100%;
+    }
+
+    .section__title {
+        font-size: 36px;
+    }
+
+    .section__para {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .feature__title {
+        display: flex;
+        text-align: center;
+    }
+
+    .feature__text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .features {
+        justify-content: center;
+    }
+
+    .features__container {
+    }
+
+    .quality__title {
+        font-size: 30px;
+    }
+
+    .h2__title {
+        font-size: 30px;
+    }
+
+    .step__title {
+        margin-right: 20px;
+    }
+
+    .steps__list {
+        padding-left: 0px;
+    }
+
+    .h2__values {
+        font-size: 30px;
+    }
+
+    .values__img {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .row__values {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .values__description {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .value__affordable {
+        margin-right: 35px;
+    }
+
+    .value__professionalism {
+        margin-right: 35px;
+    }
+
+    #btn4 {
+        margin-left: 35px;
+    }
+
+    .values__list {
+    }
+
+    .plan__price {
+        font-size: 36px;
+    }
+
+    .plan__bottom {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .testimonials__title {
+        font-size: 30px;
+    }
+
+    .testimonials__row {
+        flex-direction: column;
+    }
+
+    .testimonial__profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial__bottom {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4px;
+    }
+
+    .start__title {
+        font-size: 24px;
+    }
+
+    .start__button1 {
+        margin: 0px;
+    }
+
+    .start__button2 {
+        margin-right: 0px;
+        margin-top: 16px;
+    }
+
+    .start__buttons {
+        flex-direction: column;
+    }
+
+    .footer__columns {
+        justify-content: center;
+        flex-wrap: nowrap;
     }
 
 
 
+
     }
 
-
+   
 
 
 }
+
+
+
+
+
 
 
 

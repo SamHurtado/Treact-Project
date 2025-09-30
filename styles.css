@@ -511,6 +511,21 @@ height: auto;
 border: 1px solid rgb(235, 228, 228)
 }
 
+.quality__grid {
+    z-index: -1;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    color: rgb(100, 21, 255);
+    top: 375px;
+    right: 105px;
+    filter: invert(20%)sepia(100%)saturate(8000%)hue-rotate(270deg);
+}
+
 .nav__btn {
     max-width: 40%;
     font-size: medium;
@@ -611,6 +626,41 @@ font-size: 36px;
     width: 50%;
     padding: 32px 64px 32px 0;
 }
+
+.img__wrapper1 {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #9ae6b4;
+}
+
+.img__wrapper2 {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #feb2b2;
+}
+
+.value__title1 {
+    display: flex;
+    align-items: center;
+    max-width: 62%;
+    justify-content: space-between;
+}
+
+.value__title2 {
+    display: flex;
+    align-items: center;
+    max-width: 72%;
+    justify-content: space-between;
+}
+
 
 .values__img {
     width: 50%;
@@ -1366,6 +1416,21 @@ header {
     width: 80%
 }
 
+.quality__grid {
+  z-index: -1;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    color: rgb(100, 21, 255);
+    top: 325px;
+    right: 85px;
+    filter: invert(20%)sepia(100%)saturate(8000%)hue-rotate(270deg);
+}
+
 .quality__title {
     font-size: 36px;
 }
@@ -1574,6 +1639,21 @@ header {
 
 .quality__img {
     margin: 65px;
+}
+
+.quality__grid {
+  z-index: -1;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    color: rgb(100, 21, 255);
+    top: 450px;
+    right: -275px;
+    filter: invert(20%)sepia(100%)saturate(8000%)hue-rotate(270deg);
 }
 
 .quality__title {
@@ -1880,6 +1960,21 @@ h3 {
     .quality__title {
         font-size: 30px;
     }
+
+    .quality__grid {
+    z-index: -1;
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    color: rgb(100, 21, 255);
+    top: 385px;
+    right: -235px;
+    filter: invert(20%)sepia(100%)saturate(8000%)hue-rotate(270deg);
+}
 
     .h2__title {
         font-size: 30px;
